@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        background-color: hsl(240, 73%, 65%);
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="containers">
+        <section class="image-container">
+          <div>
+            <img
+              src="/images/bg-pattern-desktop.svg"
+              class="bg-image"
+              alt="bg image"
+            />
+            <img
+              src="/images/bg-pattern-mobile.svg"
+              class="bg-mobile-img"
+              alt=""
+            />
+          </div>
+
+          <div class="illustration-women">
+            <img
+              src="/images/illustration-woman-online-desktop.svg"
+              class="illustration-women__img"
+              alt="women image"
+            />
+          </div>
+          <img
+            src="/images/illustration-woman-online-mobile.svg"
+            class="illustration-women__mobile"
+            alt=""
+          />
+
+          <div class="illustration-box">
+            <img
+              src="/images/illustration-box-desktop.svg"
+              class="shadow"
+              alt="box image"
+            />
+          </div>
+        </section>
+
+        <section class="faq">
+          <h1>faq</h1>
+          <button class="accordion">
+            How many team members can I invite?
+            <img
+              src="/images/icon-arrow-down.svg"
+              class="icon"
+              alt=" down arrow"
+            />
+          </button>
+          <div class="panel">
+            You can invite up to 2 additional users on the Free plan. There is
+            no limit on team members for the Premium plan.
+          </div>
+          <button class="accordion active">
+            What is the maximum file upload size?
+            <img
+              src="/images/icon-arrow-down.svg"
+              class="icon"
+              alt=" down arrow"
+            />
+          </button>
+          <div class="panel" style="display: block; max-height: 68px">
+            No more than 2GB. All files in your account must fit your allotted
+            storage space.
+          </div>
+          <button class="accordion">
+            How do I reset my password?
+            <img
+              src="/images/icon-arrow-down.svg"
+              class="icon"
+              alt=" down arrow"
+            />
+          </button>
+          <div class="panel">
+            Click “Forgot password” from the login page or “Change password”
+            from your profile page. A reset link will be emailed to you.
+          </div>
+          <button class="accordion">
+            Can I cancel my subscription?
+            <img
+              src="/images/icon-arrow-down.svg"
+              class="icon"
+              alt=" down arrow"
+            />
+          </button>
+          <div class="panel">
+            Yes! Send us a message and we’ll process your request no questions
+            asked.
+          </div>
+          <button class="accordion">
+            Do you provide additional support?
+            <img
+              src="/images/icon-arrow-down.svg"
+              class="icon"
+              alt=" down arrow"
+            />
+          </button>
+          <div class="panel">
+            Chat and email support is available 24/7. Phone lines are open
+            during normal business hours.
+          </div>
+        </section>
+      </section>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Hari</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

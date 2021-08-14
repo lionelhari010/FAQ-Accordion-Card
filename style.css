@@ -203,3 +203,9 @@ main {
     text-align: center;
   }
 }
+
+@media only screen and (max-width: 1300px) {
+  .faq {
+    padding-right: 5px;
+  }
+}
